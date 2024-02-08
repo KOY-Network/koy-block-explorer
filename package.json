@@ -10,7 +10,8 @@
     "build": "quasar clean && quasar build",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "deploy": "vercel"
   },
   "dependencies": {
     "@greymass/eosio": "^0.6.8",
