@@ -26,8 +26,8 @@ import { FooterLink } from 'src/types/UiCustomization';
 
 const CHAIN_ID =
   '4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11';
-const NAME = 'telos';
-const DISPLAY = 'Telos';
+const NAME = 'koy';
+const DISPLAY = 'KOY';
 const TOKEN = {
     symbol: 'TLOS',
     precision: 4,
@@ -51,28 +51,28 @@ const API_ENDPOINT = 'https://api.telos.net/v1';
 const S3_PRODUCER_BUCKET = 'https://telos-producer-validation.s3.amazonaws.com';
 const DISPLAY_MAP = true;
 const THEME = {
-    primary: '#571aff',
-    secondary: '#071A5F',
-    accent: '#9C27B0',
-    dark: '#1d1d1d',
-    positive: '#21BA45',
-    negative: '#ff0000',
-    info: '#31CCEC',
-    warning: '#F2C037',
-    'color-map': '#4325c2',
-    'color-primary-gradient': 'linear-gradient(90deg, #071A5F 0%, #071A5F 100%)',
+    primary: '#ce1c61',
+    secondary: '#001DFF',
+    accent: '#00FF0E',
+    dark: '#F1FF00',
+    positive: '#00FFB2',
+    negative: '#FF9200',
+    info: '#9B00FF',
+    warning: '#71DDFF',
+    'color-map': '#ce1c61',
+    'color-primary-gradient': 'linear-gradient(90deg, #ce1c61 0%, #071A5F 100%)',
     'color-secondary-gradient':
-    'linear-gradient(180deg, #571aff 0%, #571aff 147.34%)',
+    'linear-gradient(180deg, #071A5F 0%, #571aff 147.34%)',
     'color-tertiary-gradient':
     'linear-gradient(90deg, #CBCAF5 0%, #A9CAF3 56.77%, #63C9EF 100%)',
-    'color-progress-gradient': '#571aff',
+    'color-progress-gradient': '#ce1c61',
     'color-producer-card-background': '#f5f4fe',
     'color-select-box-background': '#e0dffb',
-    'color-header-background': '#071A5F',
+    'color-header-background': '#171717',
     'color-header-border': '#8a65d41a',
-    'color-header-support-background': 'linear-gradient(180deg, #071A5F 0%, #571aff 147.34%)',
-    'color-graph-shadow': '#571aff28',
-    'color-footer-background': '#071A5F',
+    'color-header-support-background': 'linear-gradient(180deg, #171717 0%, #ee05f2 147.34%)',
+    'color-graph-shadow': '#BEA8B0',
+    'color-footer-background': '#171717',
 };
 
 export default class Telos extends BaseChain {
@@ -121,11 +121,11 @@ export default class Telos extends BaseChain {
     }
 
     getLargeLogoPath(): string {
-        return 'chains/telos/telos_logo.png';
+        return 'chains/koy/KOY_Logo.png';
     }
 
     getSmallLogoPath(): string {
-        return 'chains/telos/tlos.png';
+        return 'chains/koy/KOY_Logo.png';
     }
 
     getMapDisplay(): boolean {
