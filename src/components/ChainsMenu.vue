@@ -32,13 +32,13 @@ export default defineComponent({
             const currentChain = sessionStorage.getItem(ConfigManager.CHAIN_LOCAL_STORAGE);
             if (currentChain === null) {
                 const chains = configMgr.getMainnets();
-                // const telos = chains.filter(chain => chain.getName() === 'telos')[0];
-                const koy = chains.filter(chain => chain.getName() === 'koy')[0];
+                const telos = chains.filter(chain => chain.getName() === 'telos')[0];
+                // const koy = chains.filter(chain => chain.getName() === 'koy')[0];
 
-                if(!isChainSelected(koy)) {
+                if(!isChainSelected(telos)) {
                     void router.push({
                         path: route.path,
-                        query: { network: koy.getName() },
+                        query: { network: telos.getName() },
                     });
                 }
             }
