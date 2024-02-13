@@ -121,11 +121,11 @@ export default class Telos extends BaseChain {
     }
 
     getLargeLogoPath(): string {
-        return 'chains/koy/koy_logo.png';
+        return 'chains/koy/logo_lg.png';
     }
 
     getSmallLogoPath(): string {
-        return 'chains/koy/koy_logo.png';
+        return 'chains/koy/logo_lg.png';
     }
 
     getMapDisplay(): boolean {
