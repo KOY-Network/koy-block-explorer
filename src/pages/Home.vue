@@ -25,7 +25,7 @@ export default defineComponent({
 <div class="row home-container">
     <div class="col-12 col-sm-8 q-pa-md header-support home-banner">
         <img class="antelope-logo" src="icons/antelope-logo.png">
-        <h2>Open Block Explorer</h2>
+        <h2>Koy Block Explorer</h2>
     </div>
     <div class="col-12 col-sm-4">
         <ChainsListSelector :on-chain-selected="onChainSelected" />
