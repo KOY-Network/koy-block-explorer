@@ -6,7 +6,8 @@ const routes: RouteRecordRaw[] = [
     {
         path: '/',
         name: 'home',
-        component: () => import('pages/Home.vue'),
+        // component: () => import('pages/Home.vue'),
+        component: () => import('layouts/MainLayout.vue'),
         beforeEnter:(to, from, next) => {
             if (!isMultichain) {
                 next('/network?network=koy');
