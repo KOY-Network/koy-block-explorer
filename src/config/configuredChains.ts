@@ -12,9 +12,9 @@ import { ChainsConfig } from 'src/types/ChainsConfig';
 
 const chains: ChainsConfig = {
     // mainnets: [new EOS('eos'), new Telos('telos'), new UX('ux'), new Wax('wax'), new KOY('koy')],
-    mainnets: [new Telos('telos'), new KOY('koy')],
+    mainnets: [new KOY('koy'), new Telos('telos')],
     // mainnets: [new KOY('koy')],
-    testnets: [new TelosTestnet('telos-testnet'), new KoyTestnet('koy-testnet')],
+    testnets: [new KoyTestnet('koy-testnet'), new TelosTestnet('telos-testnet')],
     // testnets: [new KoyTestnet('koy-testnet')],
 };
 
