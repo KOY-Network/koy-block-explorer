@@ -24,8 +24,10 @@ import { Theme } from 'src/types/Theme';
 import { Token } from 'src/types';
 import { FooterLink } from 'src/types/UiCustomization';
 
+// const CHAIN_ID =
+//   '4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11';
 const CHAIN_ID =
-  '4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11';
+  '5e5130fd0cd9e17ad437f873f4a4126c76304c16e3b6c95dc309e50d6d4fcfea';
 const NAME = 'koy-testnet';
 const DISPLAY = 'KOY';
 const TOKEN = {
@@ -35,10 +37,12 @@ const TOKEN = {
     contract: 'eosio.token',
 } as Token;
 
-const HYPERION_ENDPOINT = 'https://testnet.telos.net';
+// const HYPERION_ENDPOINT = 'https://testnet.telos.net';
+const HYPERION_ENDPOINT = 'https://api.koy-stagenet.telos.africa';
+// const HYPERION_ENDPOINT = 'https://eosauthority.com/?network=localtest&endpoint=https:%2F%2Fapi.koy-stagenet.telos.africa&token_symbol=KOYN';
 const RPC_ENDPOINT = {
     protocol: 'https',
-    host: 'testnet.telos.net',
+    host: 'api.koy-stagenet.telos.africa',
     port: 443,
 };
 // const FUEL_RPC_ENDPOINT = {
@@ -46,7 +50,8 @@ const RPC_ENDPOINT = {
 //     host: 'telos.greymass.com',
 //     port: 443,
 // };
-const API_ENDPOINT = 'https://api.telos.net/v1';
+// const API_ENDPOINT = 'https://api.telos.net/v1';
+const API_ENDPOINT = 'https://api.koy-stagenet.telos.africa';
 const S3_PRODUCER_BUCKET = 'https://telos-producer-validation.s3.amazonaws.com';
 const DISPLAY_MAP = true;
 const THEME = {
