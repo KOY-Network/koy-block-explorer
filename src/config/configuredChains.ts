@@ -14,6 +14,7 @@ const chains: ChainsConfig = {
     // mainnets: [new EOS('eos'), new Telos('telos'), new UX('ux'), new Wax('wax'), new KOY('koy')],
     // mainnets: [new KOY('koy'), new Telos('telos')],
     mainnets: [new KOY('koy')],
+    // mainnets: [new KOY('koy')],
     // testnets: [new KoyTestnet('koy-testnet'), new TelosTestnet('telos-testnet')],
     testnets: [new KoyTestnet('koy-testnet')],
 };

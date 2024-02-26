@@ -31,7 +31,7 @@ const CHAIN_ID =
 const NAME = 'koy-testnet';
 const DISPLAY = 'KOY';
 const TOKEN = {
-    symbol: 'TLOS',
+    symbol: 'KOYN',
     precision: 4,
     amount: 0,
     contract: 'eosio.token',
@@ -53,7 +53,7 @@ const RPC_ENDPOINT = {
 // const API_ENDPOINT = 'https://api.telos.net/v1';
 const API_ENDPOINT = 'https://api.koy-stagenet.telos.africa';
 const S3_PRODUCER_BUCKET = 'https://telos-producer-validation.s3.amazonaws.com';
-const DISPLAY_MAP = true;
+const DISPLAY_MAP = false;
 const THEME = {
     primary: '#ce1c61',
     secondary: '#001DFF',
