@@ -31,7 +31,7 @@ const CHAIN_ID =
 const NAME = 'koy-testnet';
 const DISPLAY = 'KOY';
 const TOKEN = {
-    symbol: 'KOYN',
+    symbol: 'KOYNN',
     precision: 4,
     amount: 0,
     contract: 'eosio.token',
