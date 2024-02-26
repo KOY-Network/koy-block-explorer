@@ -16,7 +16,7 @@ enum MapReveal {
 export default defineComponent({
     name: 'PageNetwork',
     components: {
-        PriceChart,
+        // PriceChart,
         TransactionsTable,
         WorldMap,
         MapData,
