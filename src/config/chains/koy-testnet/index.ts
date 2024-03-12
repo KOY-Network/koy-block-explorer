@@ -27,7 +27,7 @@ import { FooterLink } from 'src/types/UiCustomization';
 // const CHAIN_ID =
 //   '4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11';
 const CHAIN_ID =
-  '5e5130fd0cd9e17ad437f873f4a4126c76304c16e3b6c95dc309e50d6d4fcfea';
+  '181e289803751d4e0fc257fd186edaa6df8169e28631f1bf63fc9287a80cfb5f';
 const NAME = 'koy-testnet';
 const DISPLAY = 'KOY';
 const TOKEN = {
